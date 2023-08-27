@@ -1,0 +1,16 @@
+/*flexbox*/
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+/*radio buttons hover*/
+input[type="radio"]:hover {
+    cursor: pointer;
+}
